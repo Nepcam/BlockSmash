@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameStatus : MonoBehaviour
 {
+    //[Range] gives us a min and max over the gameSpeed variable
     [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
 
     // Start is called before the first frame update
