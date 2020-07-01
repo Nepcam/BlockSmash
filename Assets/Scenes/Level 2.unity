@@ -386,7 +386,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Space
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3458488892518618366, guid: 4270165e4d94aaf4cbf8c548391e1b1c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4270165e4d94aaf4cbf8c548391e1b1c, type: 3}
 --- !u!1001 &303739580
 PrefabInstance:
@@ -989,6 +990,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 814049590}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &979404945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3458488892518618361, guid: 4270165e4d94aaf4cbf8c548391e1b1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 301263894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &979404947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979404945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2547dd490eb06ea458c436cb5a53e0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1001244463
 PrefabInstance:
   m_ObjectHideFlags: 0
